@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:kinetic
 RUN apt-get -q -y update
 RUN apt-get -q -y install python3 python3-pip sudo
 RUN pip3 install Flask gunicorn
