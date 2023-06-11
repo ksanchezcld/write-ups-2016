@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20210416
 
 RUN apt-get update && apt-get upgrade -y
 RUN apt-get install -y apache2 php libapache2-mod-php git
