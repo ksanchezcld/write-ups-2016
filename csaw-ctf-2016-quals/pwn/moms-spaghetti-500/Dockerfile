@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20201014
 
 RUN dpkg --add-architecture i386
 RUN apt-get update && apt-get upgrade -y
