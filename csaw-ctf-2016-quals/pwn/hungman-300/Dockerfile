@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20201014
 MAINTAINER unknonwn
 LABEL Description="CSAW 2016 Hungman" VERSION='1.0'
 
