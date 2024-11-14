@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:trusty-20190425
 
 RUN apt-get update && apt-get upgrade -y
 RUN apt-get install -y python
