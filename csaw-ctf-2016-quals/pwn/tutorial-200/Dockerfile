@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:trusty-20190425
 MAINTAINER unknonwn
 LABEL Description="CSAW 2016 Tutorial" VERSION='1.0'
 
